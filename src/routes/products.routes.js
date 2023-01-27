@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { authRoutesValidation } from "../middlewares/auth.middleware";
+import { authRoutesValidation } from "../middlewares/auth.middleware.js";
 
 
 const router = Router();
