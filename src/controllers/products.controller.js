@@ -1,4 +1,4 @@
-import { productsColletion } from "../database/db";
+import { productsColletion } from "../database/db.js";
 
 export async function getProducts(req, res) {
     const products = await productsColletion.find().toArray();
